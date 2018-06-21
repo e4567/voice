@@ -53,15 +53,6 @@ a:link {
 
 }
 
-a:hover
-{	
-	text-decoration: none; 
-	border-top;
-	border-width:thin;
-	color: #5ed999;	
-	transition: all.6s ease;
-}
-
 a:active{color: #00FF14FF}
 
 headertext {
