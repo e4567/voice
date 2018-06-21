@@ -27,7 +27,9 @@ video{
 
 .text
 {
-	
+	font-family: 'Press Start 2P', cursive;
+	color: #32cd32;
+	text-align: left;
 } 
 
 body {
@@ -44,7 +46,6 @@ a {
 
 }
 a:link {
-	font-family: 'Press Start 2P', cursive;
 	text-decoration-color: none;
 	text-decoration: none; 
 	font-family: 'Press Start 2P', cursive;
@@ -57,7 +58,6 @@ a:hover
 	text-decoration: none; 
 	border-top;
 	border-width:thin;
-	border-style:dotted;
 	color: #5ed999;	
 	transition: all.6s ease;
 }
