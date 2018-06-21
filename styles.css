@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div
+{
+	border: 1px solid #5ed747; 
+    padding: 20px; 
+    margin-top: 3%; 
+}
+
+video{
+   position:fixed;
+   z-index:-1;
+   min-width:100%;
+   min-height:100%;
+   overflow:hidden;
+   opacity: 0.3;
+}
+ 
+
+body {
+	width: 100%;
+	height: 100%;
+	text-decoration-color: #00FF00FF;
+	background-color: #071404;
+}
+
+a {
+	
+	color: #5ed747;
+	transition: all.6s ease;
+
+}
+a:link {
+	font-family: 'Press Start 2P', cursive;
+	text-decoration-color: none;
+	text-decoration: none; 
+	font-family: 'Press Start 2P', cursive;
+	color: #5ed747;
+
+}
+
+a:hover
+{	
+	text-decoration: none; 
+	border-top;
+	border-width:thin;
+	border-style:dotted;
+	color: #5ed999;	
+	transition: all.6s ease;
+}
+
+a:active{color: #00FF14FF}
+
+headertext {
+	font-family: 'Press Start 2P', monospace;
+	color: #32cd32;
+	font-size: 250%;
+
+}
+
+
+footer {
+	padding-top: 3%;
+	font-family: 'Press Start 2P', cursive;
+	color: #32cd32;
+	font-size: 50%;
+}
